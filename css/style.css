@@ -1,8 +1,14 @@
 /* Add all your styles here */
-
+body{
+  background: black;
+}
 .selector-for-some-widget {
   box-sizing: content-box;
 }
 .contaner{
-  text-aling: center;
+color: #ffffff;
+  text-align: center;
+}
+.form-control{
+  with: 50%;
 }
