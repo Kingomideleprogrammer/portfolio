@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-<div id="app">
+
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
   <a class="navbar-brand" href="#">Navbar</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -50,7 +50,23 @@
     </form>
   </div>
 </nav>
-    <h3>Hello World</h3>
+
+<div class="contaner">
+    <h3>My form</h3>
+    <form action="/action_page.php">
+  <div class="form-group">
+    <label for="email">Email address:</label>
+    <input type="email" class="form-control" id="email">
+  </div>
+  <div class="form-group">
+    <label for="pwd">Password:</label>
+    <input type="password" class="form-control" id="pwd">
+  </div>
+  <div class="checkbox">
+    <label><input type="checkbox"> Remember me</label>
+  </div>
+  <button type="submit" class="btn btn-default">Submit</button>
+</form>
 
 </div>
 
